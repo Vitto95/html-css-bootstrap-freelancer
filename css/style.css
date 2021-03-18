@@ -28,6 +28,10 @@
   color: white;
 }
 
+.vg-weight-600 {
+  font-weight: 600;
+}
+
 /* header */
 .vg-header-top {
   position: fixed;
@@ -37,6 +41,10 @@
   line-height: 80px;
   z-index: 999;
   background-color: #2c3e50;
+}
+
+.vg-header-top span {
+  font-weight: 800;
 }
 
 .vg-header-top ul li {
@@ -92,4 +100,17 @@
 }
 .vg-footer-bottom {
   background-color: #2c3e50;
+}
+
+/* MODIFICHE A CODICE BOOTSTRAP */
+
+#about .btn-default {
+  color: white;
+  background-color: #1abc9c;
+  border-color: white;
+}
+
+h1,
+h2 {
+  font-weight: 600;
 }
