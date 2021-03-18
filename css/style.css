@@ -145,3 +145,20 @@ input[type="submit"] {
   background-color: #1abc9c;
   color: white;
 }
+
+/* formattazione riga con stella */
+
+.vg-star {
+  position: relative;
+}
+
+.vg-after-star {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  border-bottom: 3px solid #2c3e50;
+  width: 30%;
+  height: 1px;
+}
+
+/* /formattazione riga con stella */
