@@ -1,32 +1,6 @@
+/* global */
 .vg-bg-green {
   background-color: green;
-}
-
-.vg-header-top {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-  height: 80px;
-  line-height: 80px;
-  background-color: lightblue;
-}
-
-.vg-header-top nav ul {
-  list-style-type: none;
-}
-
-.vg-header-top nav ul li {
-  display: inline-block;
-}
-
-.vg-header-top nav ul li a {
-  text-decoration: none;
-}
-
-.vg-header-top nav ul li:nth-child(2) {
-  padding-right: 2%;
-  padding-left: 2%;
 }
 
 .vg-padding-80 {
@@ -46,6 +20,26 @@
   margin: 0 auto;
 }
 
+/* header */
+.vg-header-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  z-index: 999;
+  background-color: mediumslateblue;
+}
+
+.vg-header-top ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.vg-header-top ul li a {
+  text-decoration: none;
+}
+
 .vg-header-bottom {
   min-height: 300px;
   margin-top: 80px;
@@ -59,19 +53,21 @@
   background-color: lightblue;
 }
 
+.vg-header-bottom .vg-jumbotron img {
+  width: 25%;
+}
+
+/* section */
 .vg-box {
-  width: 100%;
-  height: 350px;
-  background-color: lightcoral;
+  /* width: 100%; */
+  /* height: 350px; */
   margin-bottom: 15px;
+  background-color: lightcoral;
 }
 
 .vg-footer-top {
   background-color: lightseagreen;
 }
-
 .vg-footer-bottom {
   background-color: mediumslateblue;
 }
-
-/* MANCA BG GREEN! */
